@@ -1,0 +1,111 @@
+/* --- Media Queries --- */
+
+/* Planshetlar uchun (max-width: 992px) */
+@media (max-width: 992px) {
+    .nav_links {
+        gap: 15px;
+    }
+
+    .header_enter-title {
+        font-size: 60px;
+    }
+
+    .header_enter-text {
+        font-size: 30px;
+    }
+
+    .catalog_boxes {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .catalog_box {
+        max-width: 45%; /* Ikkita ustun qilib chiqaradi */
+    }
+}
+
+/* Kichik planshet va telefonlar uchun (max-width: 768px) */
+@media (max-width: 768px) {
+    .nav .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav_search-input {
+        max-width: 150px;
+    }
+
+    .header_enter {
+        height: 600px;
+    }
+
+    .header_enter-title {
+        font-size: 45px;
+    }
+
+    .header_enter-text {
+        font-size: 22px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .about_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_box img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .contact_about {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .title-contact {
+        text-align: center !important;
+    }
+
+    .contact_about-text {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .contact_about_links {
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* Smartfonlar uchun (max-width: 480px) */
+@media (max-width: 480px) {
+    .nav_links {
+        gap: 10px;
+    }
+
+    .nav_links-link {
+        font-size: 14px;
+    }
+
+    .header_enter-title {
+        font-size: 35px;
+    }
+
+    .header_enter-link {
+        padding: 12px 50px;
+    }
+
+    .catalog_box {
+        max-width: 100%; /* Bitta ustun qilib chiqaradi */
+    }
+
+    .footer_links {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+}
